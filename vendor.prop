@@ -205,6 +205,10 @@ vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=0
 vendor.usb.use_gadget_hal=0
 
+# SOC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM7125
+
 # Volume steps
 ro.config.vc_call_vol_steps=10
 
