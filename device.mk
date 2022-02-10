@@ -68,7 +68,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     bluetooth.device.class_of_device=90,2,12 \
-    bluetooth.profile.asha.central=false
+    bluetooth.profile.asha.central.enabled=false
 
 # Camera
 PRODUCT_PACKAGES += \
