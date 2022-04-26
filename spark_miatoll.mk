@@ -18,6 +18,9 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Target
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := spark_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
