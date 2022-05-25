@@ -1,22 +1,22 @@
 [
   {
-    "remote":      "popoA3M",
-    "repository":  "device_xiaomi_sdm6250-common",
-    "target_path": "device/xiaomi/sdm6250-common"
+    "remote":      "devices",
+    "repository":  "device_xiaomi_sm6250-common",
+    "target_path": "device/xiaomi/sm6250-common"
   },
   {
-    "remote":      "popoA3M",
+    "remote":      "devices",
     "repository":  "vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll"
   },
   {
-    "remote":      "popoA3M",
+    "remote":      "devices",
     "repository":  "vendor_xiaomi_sm6250-common",
     "target_path": "vendor/xiaomi/sm6250-common"
   },
   {
-    "remote":      "popoA3M",
-    "repository":  "kernel_xiaomi_sdm6250",
-    "target_path": "kernel/xiaomi/sdm6250"
+    "remote":      "devices",
+    "repository":  "kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250"
   }
 ]
