@@ -121,19 +121,19 @@ vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin
 vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin
 
 # Camera sensors (excalibur & joyeuse) - from joyeuse
-vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
-vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin
-vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin|d7d7d51d436d46da23bb985982151cc3595e0634
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin|5f980c2f9520998ac0b53c938d4ce2c952c4c80b
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin|98a20d97d7babb7aab1406d5a6b0a3d7cfeeae41
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin|8e170a3952e7032f8354e9f148893b2a24fc2e7d
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin|b35f245d5101f4d55a7651380f48239cfd08a146
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin|15e8b553727c7fc427e74ecfda7be14e9232a217
 
 # Camera sensors (excalibur) - from excalibur
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|a6f8e2da547f15d315412f81c58d4ba6888641d5
 vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|ea825eadeacdc02debdf1b6406706bf695e11bc0
 
 # Camera sensors (joyeuse) - from joyeuse
-vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin|28ece5dfca9476a79a3ad7e0b95e22cd58445499
 
 # Camera
 vendor/etc/camera/almalence_sr_params_tele.config
@@ -826,7 +826,7 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC - from joyesue
-vendor/lib/libpn553_fw.so
+vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 
 # Permissions
 system/etc/permissions/privapp-permissions-qti.xml
