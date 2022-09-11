@@ -1,4 +1,6 @@
 # All unpinned blobs below are extracted from V13.0.2.0.SJWMIXM (CURTANAGlobal)
+# joyeuse: V13.0.1.0.SJZMIXM (JOYEUSEGlobal)
+# excalibur: V12.5.6.0.RJXINXM (EXCALIBURINGlobal)
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -107,6 +109,31 @@ vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 # Bluetooth (aptX) - from sunfish - RQ3A.210805.001.A1/7474174
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+
+# Camera sensors (curtana & gram)
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin
+vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin
+
+# Camera sensors (excalibur & joyeuse) - from joyeuse
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
+
+# Camera sensors (excalibur) - from excalibur
+vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|a6f8e2da547f15d315412f81c58d4ba6888641d5
+vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|ea825eadeacdc02debdf1b6406706bf695e11bc0
+
+# Camera sensors (joyeuse) - from joyeuse
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
 
 # Camera
 vendor/etc/camera/almalence_sr_params_tele.config
@@ -797,6 +824,9 @@ vendor/lib64/unnhal-acc-adreno.so
 vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
+
+# NFC - from joyesue
+vendor/lib/libpn553_fw.so
 
 # Permissions
 system/etc/permissions/privapp-permissions-qti.xml

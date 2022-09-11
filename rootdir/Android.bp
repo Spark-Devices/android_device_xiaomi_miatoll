@@ -5,6 +5,14 @@
 //
 
 // Init scripts
+
+prebuilt_etc {
+    name: "init.device.rc",
+    src: "etc/init.device.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
 sh_binary {
     name: "init.qcom.early_boot.sh",
     src: "bin/init.qcom.early_boot.sh",
