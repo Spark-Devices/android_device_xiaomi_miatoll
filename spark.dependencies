@@ -1,0 +1,12 @@
+[
+  {
+    "remote":      "devices",
+    "repository":  "vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
+  },
+  {
+    "remote":      "devices",
+    "repository":  "kernel_xiaomi_miatoll",
+    "target_path": "kernel/xiaomi/miatoll"
+  }
+]

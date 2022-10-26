@@ -28,6 +28,12 @@ persist.dbg.wfc_avail_ovr=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 vendor.mm.enable.qcom_parser=16777215
 
+# Spark-OS
+ro.spark.device.name=Miatoll
+ro.spark.group.url=https://t.me/SparkOSMiatoll
+ro.spark.maintainer=popoASM
+ro.spark.maintainer.username=popoASM
+
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
