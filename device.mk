@@ -306,6 +306,9 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiOverlay
 
+PRODUCT_PACKAGES += \
+    SM6250Aperture
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
