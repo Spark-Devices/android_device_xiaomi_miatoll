@@ -286,6 +286,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
+    NotchBarKiller \
     SM6250Frameworks \
     SM6250SystemUI \
     TelephonyResCommon \
